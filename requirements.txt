@@ -1,0 +1,32 @@
+# ------------------------------------------------------------------------------
+# MEMBER 3: BACKEND & AI ARCHITECT
+# Focus: FastAPI server, PostgreSQL DB schema, LLM AI agent, concurrency locks
+# ------------------------------------------------------------------------------
+
+# Core Web Framework & Async Server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+
+# Database & ORM (PostgreSQL & Async Drivers)
+sqlalchemy>=2.0.25
+psycopg2-binary>=2.9.9
+asyncpg>=0.29.0
+alembic>=1.13.1
+
+# AI & Conversational LLM Engine
+langchain>=0.1.0
+langchain-core>=0.1.10
+langchain-openai>=0.0.2
+openai>=1.10.0
+google-generativeai>=0.3.2
+tiktoken>=0.5.2
+
+# Cache & Distributed Locks (Anti-Overbooking Logic)
+redis>=5.0.1
+celery>=5.3.6
+
+# Configuration & Utilities
+python-dotenv>=1.0.0
+
